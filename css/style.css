@@ -1,0 +1,87 @@
+/*
+Template Name:RESPONSIVE DESIGN
+Author: Sell My House Fast
+Batch: Web-1706
+Date: 08 October 2017
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover,a:focus{
+	text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+    text-decoration: none;
+	margin: 0;
+}
+div{
+	outline: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #111;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.cnt{
+    padding: 0;
+}
+
+.cl{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+*{
+	outline: none;
+}
+
+img{
+    border: 0;
+}
+
+/*CSS STARTS*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    line-height: 27px;
+}
+
+.mood-img{
+    margin-top: 100px;
+}
+
+.mood-img img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    opacity: 0.5;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.slick-slide.slick-current.slick-active.slick-center img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    opacity: 1;
+    margin: 0 auto;
+    
+}
